@@ -63,8 +63,8 @@ public class TntTagHeartbeat extends ArenaHeartbeat {
 		{
 			setExplosionTime(360-elapsedSeconds);
 		}
-		//if (elapsedSeconds % 60 == 0) {
-		if(elapsedSeconds==time){
+		if (elapsedSeconds % 60 == 0) {
+		//if(elapsedSeconds==time){
 			for (Map.Entry<UUID, Boolean> entry : getArena().playersTag.entrySet()) {
 				if(entry.getValue()){
 					entry.setValue(false);
@@ -111,16 +111,17 @@ public class TntTagHeartbeat extends ArenaHeartbeat {
 		}
 
 		setActiveTaggers(count);
-		for(Map.Entry<UUID,Boolean> entry : getArena().playersTag.entrySet()){
-			if(entry.getValue()){
-				for(Player player : inGamePlayers){
-					if(entry.getKey().equals(player.getUniqueId())){
-						getArena().updateEntityLocation(player);
-					}
-				}
-			}
-		}
 
+//		for(Map.Entry<UUID,Boolean> entry : getArena().playersTag.entrySet()){
+//			if(entry.getValue()){
+//				for(Player player : inGamePlayers){
+//					if(entry.getKey().equals(player.getUniqueId())){
+//						getArena().updateEntityLocation(player);
+//					}
+//				}
+//			}
+//		}
+//
 
 	}
 

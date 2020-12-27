@@ -34,13 +34,16 @@ public class DuelsStadiumTool  extends VisualTool<DuelsArena> {
 		location.setYaw(player.getLocation().getYaw());
 		location.setPitch(0);
 
-		settings.setStadiumLocation(location);
+
+	//	settings.setStadiumLocation(location);
+		settings.setStadiumLocation(location.subtract(arena.getReferenceLocation()));
 		Messenger.success(player,"Set the Duels Stadium Location");
 	}
 
 	@Override
 	protected List<Location> getVisualizedPoints(DuelsArena arena) {
-		return Arrays.asList((arena.getSettings()).getStadiumLocation());
+		//return Arrays.asList((arena.getSettings()).getStadiumLocation());
+		return Arrays.asList((arena.getSettings()).getStadiumLocation().add(arena.getReferenceLocation()));
 	}
 
 	@Override

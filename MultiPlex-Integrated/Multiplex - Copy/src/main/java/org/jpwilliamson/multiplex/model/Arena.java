@@ -5,7 +5,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.function.Consumer;
 
+import lombok.Setter;
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -52,6 +55,8 @@ import lombok.Getter;
 
 public abstract class Arena {
 
+	@Setter
+	private Location referenceLocation;
 	/**
 	 * The name of the arena
 	 */
@@ -133,8 +138,7 @@ public abstract class Arena {
 		this.scoreboard = createScoreboard();
 
 		this.settings.setArenaType(type);
-
-
+		setReferenceLocation(new Location(Bukkit.getWorld(getPlayers(ArenaJoinMode.EDITING).get(0).getWorld().getUID()), 0, 0, 0));
 
 	}
 
@@ -180,6 +184,7 @@ public abstract class Arena {
 	 */
 	public final boolean joinPlayer(final Player player, final ArenaJoinMode joinMode) {
 		final ArenaPlayer cache = ArenaPlayer.getCache(player);
+
 
 		if (!canJoin(player, joinMode))
 			return false;
@@ -293,6 +298,10 @@ public abstract class Arena {
 		return true;
 	}
 
+	public Location getReferenceLocation(){
+		return this.referenceLocation;
+
+	}
 	/**
 	 * Called when the player joins this arena
 	 *

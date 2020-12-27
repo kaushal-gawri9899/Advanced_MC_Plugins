@@ -406,16 +406,13 @@ public class TntTagArena extends Arena {
 			minimap.unregister(provider);
 	}
 
-	@Override
-	protected void onEntityClick(Player player, Entity clicked, PlayerInteractAtEntityEvent event) {
-		//super.onEntityClick(player, clicked, event);
+//	@Override
+//	protected void onEntityClick(Player player, Entity clicked, PlayerInteractAtEntityEvent event) {
+//		//super.onEntityClick(player, clicked, event);
+//
+//		if(clicked instanceof Boat){
+//			player.getInventory().addItem(new ItemStack(Material.EMERALD));
+//		}
+//	}
 
-		if(clicked instanceof Boat){
-			player.getInventory().addItem(new ItemStack(Material.EMERALD));
-		}
-	}
-
-	public void updateEntityLocation(Player player){
-
-	}
 }

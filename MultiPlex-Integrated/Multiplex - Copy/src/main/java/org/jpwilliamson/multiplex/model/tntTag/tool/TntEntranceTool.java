@@ -1,4 +1,4 @@
-package org.jpwilliamson.sumoarena.tool.tntTag;
+package org.jpwilliamson.multiplex.model.tntTag.tool;
 
 import java.util.List;
 
@@ -86,7 +86,9 @@ public class TntEntranceTool extends VisualTool<TntTagArena> {
 				return;
 			}
 
-			final boolean added = settings.getEntrances().toggle(block.getLocation());
+
+			//final boolean added = settings.getEntrances().toggle(block.getLocation());
+		    final boolean added = settings.getEntrances().toggle(block.getLocation().subtract(arena.getReferenceLocation()));
 			left = added ? left - 1 : left + 1;
 
 			Messenger.success(player, "Successfully " + (added ? "&2added&7" : "&cremoved&7") + " a spawn point." + (left > 0 ? " Create " + left + " more to match the max player count." : " All points set."));
@@ -99,7 +101,12 @@ public class TntEntranceTool extends VisualTool<TntTagArena> {
 	@Override
 	protected List<Location> getVisualizedPoints(final TntTagArena arena) {
 
-		return (arena.getSettings()).getEntrances().getLocations();
+		//return (arena.getSettings()).getEntrances().getLocations();
+		List<Location> updateLocationList = (arena.getSettings()).getEntrances().getLocations();
+		for(Location location : updateLocationList){
+			location.add(arena.getReferenceLocation());
+		}
+		return updateLocationList;
 	}
 
 //	/**
