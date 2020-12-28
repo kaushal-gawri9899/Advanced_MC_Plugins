@@ -50,7 +50,7 @@
     <properties>
 
         <!-- The full path to your plugin's main class, so that Spigot can find and load it -->
-        <main.class>org.jpwilliamson.multiplex.Multiplex</main.class>
+        <main.class>org.jpwilliamson.multiplex.ArenaPlugin</main.class>
 
         <!-- The Foundation version - change to latest version from https://github.com/kangarko/Foundation/releases -->
         <foundation.version>5.5.5</foundation.version>

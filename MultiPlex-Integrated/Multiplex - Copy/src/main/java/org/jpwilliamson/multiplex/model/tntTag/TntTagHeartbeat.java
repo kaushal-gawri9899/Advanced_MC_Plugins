@@ -99,9 +99,9 @@ public class TntTagHeartbeat extends ArenaHeartbeat {
 		// when player is added to spectate mode
 		// or when only last player left
 
-		if(getArena().playersTag.size()==1) {
-			getArena().stopArena(ArenaStopReason.LAST_PLAYER_LEFT);
-		}
+//		if(getArena().playersTag.size()==1) {
+//			getArena().stopArena(ArenaStopReason.LAST_PLAYER_LEFT);
+//		}
 
 		int count =0;
 		for(Map.Entry<UUID,Boolean> entry : getArena().playersTag.entrySet()){

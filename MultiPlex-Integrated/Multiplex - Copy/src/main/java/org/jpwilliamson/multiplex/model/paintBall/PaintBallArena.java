@@ -25,6 +25,7 @@ import org.mineacademy.fo.Common;
 import org.mineacademy.fo.Messenger;
 import org.mineacademy.fo.menu.model.ItemCreator;
 import org.mineacademy.fo.model.SimpleEquipment;
+import org.mineacademy.fo.model.SimpleTime;
 import org.mineacademy.fo.remain.CompColor;
 import org.mineacademy.fo.remain.CompEquipmentSlot;
 import org.mineacademy.fo.remain.CompMaterial;
@@ -60,6 +61,9 @@ public class PaintBallArena extends TeamArena {
 		damageGreen=0;
 		damageYellow=0;
 		this.scoreboard = getGameScoreboard();
+		getSettings().setLobbyDuration(SimpleTime.fromSeconds(90));
+		getSettings().setGameDuration(SimpleTime.fromSeconds(300));
+		getSettings().setMinPlayers(1);
 	}
 
 	// ------–------–------–------–------–------–------–------–------–------–------–------–

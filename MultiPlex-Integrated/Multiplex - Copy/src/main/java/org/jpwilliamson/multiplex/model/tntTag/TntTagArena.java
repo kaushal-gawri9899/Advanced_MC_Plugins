@@ -7,17 +7,12 @@ import io.github.bananapuncher714.cartographer.core.api.WorldCursor;
 import io.github.bananapuncher714.cartographer.core.api.map.WorldCursorProvider;
 import io.github.bananapuncher714.cartographer.core.map.Minimap;
 import org.bukkit.*;
-import org.bukkit.block.Block;
-import org.bukkit.block.Chest;
-import org.bukkit.enchantments.Enchantment;
-import org.bukkit.entity.Boat;
-import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
-import org.bukkit.event.player.PlayerInteractAtEntityEvent;
+
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.map.MapCursor;
-import org.bukkit.plugin.Plugin;
+
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -67,10 +62,11 @@ public class TntTagArena extends Arena {
 		return (TntTagHeartbeat) super.getHeartbeat();
 	}
 
-//	@Override
-//	public TntTagScoreboard getScoreboard() {
-//		return (TntTagScoreboard)super.getScoreboard();
-//	}
+	@Override
+	public ArenaScoreboard getScoreboard() {
+		return super.getScoreboard();
+	}
+
 
 	public TntTagScoreboard getGameScoreBoard(){
 		return new TntTagScoreboard(this);
@@ -87,10 +83,10 @@ public class TntTagArena extends Arena {
 		return new TntTagHeartbeat(this);
 	}
 
-//	@Override
-//	public ArenaScoreboard createScoreboard() {
-//		return new TntTagScoreboard(this);
-//	}
+	@Override
+	public ArenaScoreboard createScoreboard() {
+		return new ArenaScoreboard(this);
+	}
 
 	@Override
 	protected void onJoin(Player player, ArenaJoinMode joinMode) {

@@ -25,6 +25,7 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerTeleportEvent;
 import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.metadata.MetadataValue;
+import org.bukkit.scheduler.BukkitRunnable;
 import org.jpwilliamson.multiplex.model.team.TeamArena;
 import org.jpwilliamson.multiplex.menu.ClassSelectionMenu;
 import org.jpwilliamson.multiplex.menu.TeamSelectionMenu;
@@ -138,8 +139,8 @@ public abstract class Arena {
 		this.scoreboard = createScoreboard();
 
 		this.settings.setArenaType(type);
-		setReferenceLocation(new Location(Bukkit.getWorld(getPlayers(ArenaJoinMode.EDITING).get(0).getWorld().getUID()), 0, 0, 0));
-
+		//setReferenceLocation(new Location(Bukkit.getWorld(getPlayers(ArenaJoinMode.EDITING).get(0).getWorld().getUID()), 0, 0, 0))
+		setReferenceLocation(new Location(Bukkit.getWorld("world"), 0, 0, 0));
 	}
 
 	/**

@@ -3,7 +3,11 @@ package org.jpwilliamson.multiplex;
 import lombok.Getter;
 import org.jpwilliamson.multiplex.command.ArenaCommandGroup;
 import org.jpwilliamson.multiplex.model.*;
+import org.jpwilliamson.multiplex.model.blackOps.BlackOpsArena;
 import org.jpwilliamson.multiplex.model.duels.DuelsArena;
+import org.jpwilliamson.multiplex.model.kingOfHill.KingOfHillArena;
+import org.jpwilliamson.multiplex.model.paintBall.PaintBallArena;
+import org.jpwilliamson.multiplex.model.survival.SurvivalArena;
 import org.jpwilliamson.multiplex.model.tntTag.TntTagArena;
 import org.jpwilliamson.multiplex.settings.Settings;
 import org.jpwilliamson.multiplex.task.EscapeTask;
@@ -35,6 +39,10 @@ public final class ArenaPlugin extends SimplePlugin {
 		// Register our arenas
 		ArenaManager.registerArenaType(TntTagArena.class);
 		ArenaManager.registerArenaType(DuelsArena.class);
+		ArenaManager.registerArenaType(KingOfHillArena.class);
+		ArenaManager.registerArenaType(PaintBallArena.class);
+		ArenaManager.registerArenaType(SurvivalArena.class);
+		ArenaManager.registerArenaType(BlackOpsArena.class);
 	}
 
 	/**
