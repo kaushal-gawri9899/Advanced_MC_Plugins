@@ -101,7 +101,6 @@ public class TntEntranceTool extends VisualTool<TntTagArena> {
 	@Override
 	protected List<Location> getVisualizedPoints(final TntTagArena arena) {
 
-		//return (arena.getSettings()).getEntrances().getLocations();
 		List<Location> updateLocationList = (arena.getSettings()).getEntrances().getLocations();
 		for(Location location : updateLocationList){
 			location.add(arena.getReferenceLocation());

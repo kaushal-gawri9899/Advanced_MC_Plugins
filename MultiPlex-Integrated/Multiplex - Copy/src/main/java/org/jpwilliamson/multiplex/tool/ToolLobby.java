@@ -69,8 +69,8 @@ public class ToolLobby extends VisualTool<Arena> {
 		location.setYaw(player.getLocation().getYaw());
 		location.setPitch(0);
 
-		settings.setLobbyLocation(location);
-
+		//settings.setLobbyLocation(location);
+		settings.setLobbyLocation(location.subtract(arena.getReferenceLocation()));
 		Messenger.success(player, "Set the lobby arena point.");
 	}
 
@@ -79,7 +79,7 @@ public class ToolLobby extends VisualTool<Arena> {
 	 */
 	@Override
 	protected List<Location> getVisualizedPoints(final Arena arena) {
-		return Arrays.asList(arena.getSettings().getLobbyLocation());
+		return Arrays.asList(arena.getSettings().getLobbyLocation().add(arena.getReferenceLocation()));
 	}
 
 	@Override

@@ -75,7 +75,7 @@ public class ToolResetLocation extends VisualTool<Arena> {
 		location.setYaw(player.getLocation().getYaw());
 		location.setPitch(0);
 
-		settings.setResetLocation(location);
+		settings.setResetLocation(location.subtract(arena.getReferenceLocation()));
 
 		Messenger.success(player, "Set the point where players are moved before world restore for arena " + arena.getName() + ".");
 	}
@@ -85,7 +85,7 @@ public class ToolResetLocation extends VisualTool<Arena> {
 	 */
 	@Override
 	protected List<Location> getVisualizedPoints(final Arena arena) {
-		return Arrays.asList(arena.getSettings().getResetLocation());
+		return Arrays.asList(arena.getSettings().getResetLocation().subtract(arena.getReferenceLocation()));
 	}
 
 	/**

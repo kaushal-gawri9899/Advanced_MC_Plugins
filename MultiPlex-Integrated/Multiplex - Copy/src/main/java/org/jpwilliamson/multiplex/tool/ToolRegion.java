@@ -74,9 +74,9 @@ public class ToolRegion extends VisualTool<Arena> {
 		final boolean primary = click == ClickType.LEFT;
 
 		if (primary)
-			settings.setRegion(location, null);
+			settings.setRegion(location.subtract(arena.getReferenceLocation()), null);
 		else
-			settings.setRegion(null, location);
+			settings.setRegion(null, location.subtract(arena.getReferenceLocation()));
 
 		Messenger.success(player, "Set the " + (primary ? "primary" : "secondary") + " arena point.");
 	}
@@ -91,10 +91,10 @@ public class ToolRegion extends VisualTool<Arena> {
 
 		if (region != null) {
 			if (region.getPrimary() != null)
-				blocks.add(region.getPrimary());
+				blocks.add(region.getPrimary().add(arena.getReferenceLocation()));
 
 			if (region.getSecondary() != null)
-				blocks.add(region.getSecondary());
+				blocks.add(region.getSecondary().add(arena.getReferenceLocation()));
 		}
 
 		return blocks;

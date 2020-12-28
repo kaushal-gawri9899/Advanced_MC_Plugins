@@ -94,13 +94,13 @@ public class ToolTeamSpawnpoint extends VisualTool<TeamArena> {
 			return;
 		}
 
-		settings.setSpawnpoint(team, block.getLocation());
+		settings.setSpawnpoint(team, block.getLocation().subtract(arena.getReferenceLocation()));
 		Messenger.success(player, "Placed a spawnpoint for the " + team.getColor() + team.getName() + " &7team.");
 	}
 
-	/**
-	 * @see org.mineacademy.fo.menu.tool.BlockTool#onAirClick(org.bukkit.entity.Player, org.bukkit.event.inventory.ClickType, org.bukkit.block.Block)
-	 */
+//	/**
+//	 * @see org.mineacademy.fo.menu.tool.BlockTool#onAirClick(org.bukkit.entity.Player, org.bukkit.event.inventory.ClickType, org.bukkit.block.Block)
+//	 */
 	@Override
 	protected void handleAirClick(final Player player, final TeamArena arena, final ClickType click) {
 		final List<ArenaTeam> teams = ArenaTeam.getTeams();
@@ -150,7 +150,12 @@ public class ToolTeamSpawnpoint extends VisualTool<TeamArena> {
 	 */
 	@Override
 	protected List<Location> getVisualizedPoints(final TeamArena arena) {
-		return arena.getSettings().getSpawnpoints();
+		//return arena.getSettings().getSpawnpoints();
+		List<Location> updateLocationList = (arena.getSettings()).getSpawnpoints();
+		for(Location location : updateLocationList){
+			location.add(arena.getReferenceLocation());
+		}
+		return updateLocationList;
 	}
 
 	@Override
