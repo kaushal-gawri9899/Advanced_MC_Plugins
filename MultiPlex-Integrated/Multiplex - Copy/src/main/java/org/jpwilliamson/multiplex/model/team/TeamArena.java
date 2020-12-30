@@ -2,6 +2,7 @@ package org.jpwilliamson.multiplex.model.team;
 
 import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.Setter;
 import org.bukkit.Location;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
@@ -29,6 +30,9 @@ public abstract class TeamArena extends Arena {
 	 */
 	@Getter(value = AccessLevel.PROTECTED)
 	private final StrictMap<ArenaTeam, StrictMap<String, Object>> teamTags = new StrictMap<>();
+
+	@Getter@Setter
+	private String InGameMode;
 
 	/**
 	 * Create a new team arena

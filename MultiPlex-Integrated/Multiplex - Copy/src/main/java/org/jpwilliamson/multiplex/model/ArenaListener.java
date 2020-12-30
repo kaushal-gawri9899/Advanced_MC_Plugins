@@ -1,12 +1,12 @@
 package org.jpwilliamson.multiplex.model;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.function.BiConsumer;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
+import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.entity.Arrow;
@@ -82,7 +82,11 @@ import org.bukkit.event.vehicle.VehicleDestroyEvent;
 import org.bukkit.event.vehicle.VehicleEnterEvent;
 import org.bukkit.event.vehicle.VehicleEntityCollisionEvent;
 import org.bukkit.event.vehicle.VehicleEvent;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.metadata.MetadataValue;
+import org.jpwilliamson.multiplex.model.buildbattle.BuildBattleArena;
+import org.jpwilliamson.multiplex.model.buildbattle.BuildBattleSettings;
+import org.jpwilliamson.multiplex.model.buildbattle.menus.VoteMenu;
 import org.jpwilliamson.multiplex.mysql.ArenaDatabase;
 import org.jpwilliamson.multiplex.util.ArenaUtil;
 import org.jpwilliamson.multiplex.util.Constants;
@@ -305,13 +309,47 @@ public final class ArenaListener implements Listener {
 	 *
 	 * @param event
 	 */
-	@EventHandler(ignoreCancelled = false)
+	/**
+	 * Restrict clicking in arenas to play state only
+	 *
+	 * @param event
+	 */
+	@EventHandler
 	public void onInteract(final PlayerInteractEvent event) {
 		final Action action = event.getAction();
 		final Player player = event.getPlayer();
 		final Arena arena = ArenaManager.findArena(event.hasBlock() ? event.getClickedBlock().getLocation() : player.getLocation());
 
 		if (arena != null) {
+
+			if(arena.getType().equalsIgnoreCase("buildBattle")){
+				BuildBattleArena arena1 = (BuildBattleArena)arena;
+				BuildBattleSettings settings = arena1.getSettings();
+				if(settings.isVotingTime()){
+					if(action.equals(Action.RIGHT_CLICK_AIR) || action.equals(Action.LEFT_CLICK_AIR)){
+						if(event.hasItem())
+						{
+							if(Objects.requireNonNull(event.getItem()).getType().equals(Material.RED_GLAZED_TERRACOTTA)){
+								arena1.setTeamScore(player,1);
+							}
+
+							else if(event.getItem().getType().equals(Material.BLUE_GLAZED_TERRACOTTA)){
+								arena1.setTeamScore(player,2);
+							}
+
+							else if(event.getItem().getType().equals(Material.ORANGE_GLAZED_TERRACOTTA)){
+								arena1.setTeamScore(player,3);
+							}
+
+							else if(event.getItem().getType().equals(Material.GREEN_GLAZED_TERRACOTTA)){
+								arena1.setTeamScore(player,4);
+							}
+						}
+					}
+				}
+				return;
+			}
+
 			final ArenaPlayer arenaPlayer = arena.findPlayer(player);
 
 			if (arenaPlayer != null && (arena.isEdited() || arena.isPlayed()) && arenaPlayer.getMode() != ArenaJoinMode.SPECTATING) {
@@ -349,15 +387,24 @@ public final class ArenaListener implements Listener {
 	 */
 	@EventHandler
 	public void onFlightToggle(final PlayerToggleFlightEvent event) {
-		executeIfPlayingArena(event, (player, arenaPlayer) -> {
-			if (arenaPlayer.getMode() == ArenaJoinMode.SPECTATING)
-				return;
+			executeIfPlayingArena(event, (player, arenaPlayer) -> {
+				if (arenaPlayer.getMode() == ArenaJoinMode.SPECTATING)
+					return;
 
-			player.setAllowFlight(false);
-			player.setFlying(false);
+				if(arenaPlayer.hasArena())
+				{
+					if(arenaPlayer.getArena().getType().equalsIgnoreCase("BuildBattle")
+							&& arenaPlayer.getMode().equals(ArenaJoinMode.PLAYING)){
+						return;
+					}
+				}
 
-			Messenger.error(player, "You cannot fly playing an arena.");
-		});
+				player.setAllowFlight(false);
+				player.setFlying(false);
+
+				Messenger.error(player, "You cannot fly playing an arena.");
+			});
+
 	}
 
 	/**
@@ -368,9 +415,10 @@ public final class ArenaListener implements Listener {
 	@EventHandler
 	public void onGamemodeChange(final PlayerGameModeChangeEvent event) {
 		executeIfPlayingArena(event, (player, arenaPlayer) -> {
-			event.setCancelled(true);
+			if(!arenaPlayer.getArena().getType().equalsIgnoreCase("buildbattle"))
+			{event.setCancelled(true);
 
-			Messenger.error(player, "You cannot change gamemode while playing an arena!");
+				Messenger.error(player, "You cannot change gamemode while playing an arena!");}
 		});
 	}
 
@@ -390,6 +438,26 @@ public final class ArenaListener implements Listener {
 
 			if (event.getSlot() == 39 && cache.getArenaTeam() != null)
 				event.setCancelled(true);
+		}
+
+//		if(cache.getArena() instanceof BuildBattleArena && VoteMenu.getMenu(player)!=null){
+//			event.setCancelled(true);
+//		}
+		ItemStack m = event.getCurrentItem();
+		Map<String,Integer> themeMap = VoteMenu.getThemeMap();
+		List value = new ArrayList(themeMap.keySet());
+		if(m!=null) {
+
+			if (m.getType().equals(Material.RED_STAINED_GLASS_PANE) || m.getType().equals(Material.ACACIA_SIGN) || m.getType().equals(Material.PAPER)) {
+				if(m.getType().equals(Material.PAPER)){
+					int slot = event.getSlot();
+					Bukkit.broadcastMessage("Slot is " + slot);
+					//Common.log("Slot is" + slot);
+					VoteMenu.changeInventory(slot,player);
+				}
+				event.setCancelled(true);
+			}
+
 		}
 	}
 
@@ -869,6 +937,14 @@ public final class ArenaListener implements Listener {
 	 */
 	@EventHandler
 	public void onBucketFill(final PlayerBucketFillEvent event) {
+		ArenaPlayer cache = ArenaPlayer.getCache(event.getPlayer());
+		if(cache.hasArena()){
+			if(cache.getMode().equals(ArenaJoinMode.PLAYING) && cache.getArena().getType().equalsIgnoreCase("buildBattle")){
+				BuildBattleSettings settings = (BuildBattleSettings) cache.getArena().getSettings();
+				if(!settings.isVotingTime())
+					return;
+			}
+		}
 		preventBucketGrief(event.getBlockClicked().getLocation(), event);
 	}
 
@@ -879,6 +955,14 @@ public final class ArenaListener implements Listener {
 	 */
 	@EventHandler
 	public void onBucketEmpty(final PlayerBucketEmptyEvent event) {
+		ArenaPlayer cache = ArenaPlayer.getCache(event.getPlayer());
+		if(cache.hasArena()){
+			if(cache.getMode().equals(ArenaJoinMode.PLAYING) && cache.getArena().getType().equalsIgnoreCase("buildBattle")){
+				BuildBattleSettings settings = (BuildBattleSettings) cache.getArena().getSettings();
+				if(!settings.isVotingTime())
+					return;
+			}
+		}
 		preventBucketGrief(event.getBlockClicked().getLocation(), event);
 	}
 
@@ -1097,6 +1181,17 @@ public final class ArenaListener implements Listener {
 	 */
 	@EventHandler
 	public void onBlockBreak(final BlockBreakEvent event) {
+		if(ArenaPlayer.getCache(event.getPlayer()).hasArena()){
+
+			if(ArenaPlayer.getCache(event.getPlayer()).getMode().equals(ArenaJoinMode.PLAYING) &&
+					ArenaPlayer.getCache(event.getPlayer()).getArena().getType().equalsIgnoreCase("buildbattle")) {
+				BuildBattleArena arena = (BuildBattleArena) ArenaPlayer.getCache(event.getPlayer()).getArena();
+				if(arena.buildBlocks.contains(event.getBlock().getBlockData())){
+					arena.buildBlocks.remove(event.getBlock().getBlockData());
+					return;
+				}
+			}
+		}
 		preventBuild(event.getPlayer(), event, false);
 	}
 
@@ -1107,6 +1202,19 @@ public final class ArenaListener implements Listener {
 	 */
 	@EventHandler
 	public void onBlockPlace(final BlockPlaceEvent event) {
+		if(ArenaPlayer.getCache(event.getPlayer()).hasArena()){
+
+			if(ArenaPlayer.getCache(event.getPlayer()).getMode().equals(ArenaJoinMode.PLAYING) &&
+					ArenaPlayer.getCache(event.getPlayer()).getArena().getType().equalsIgnoreCase("buildbattle")) {
+				if(!((BuildBattleSettings)ArenaPlayer.getCache(event.getPlayer()).getArena().getSettings()).isVotingTime()){
+					BuildBattleArena arena = (BuildBattleArena) ArenaPlayer.getCache(event.getPlayer()).getArena();
+					if(!arena.getSettings().isVotingTime()){
+						arena.buildBlocks.add(event.getBlock().getBlockData());
+						return;
+					}
+				}
+			}
+		}
 		preventBuild(event.getPlayer(), event, true);
 	}
 
@@ -1474,8 +1582,18 @@ public final class ArenaListener implements Listener {
 		@EventHandler
 		public void onEntitySpawn(final EntitySpawnEvent event) {
 
+
 			final Entity entity = event.getEntity();
 			final Arena arena = ArenaManager.findArena(event.getLocation());
+
+			if(arena != null){
+				if(arena.getType().equalsIgnoreCase("buildBattle")){
+					BuildBattleArena arena1 = (BuildBattleArena)arena;
+					if(arena1.isPlayed()){
+						return;
+					}
+				}
+			}
 
 			if (arena == null)
 				return;

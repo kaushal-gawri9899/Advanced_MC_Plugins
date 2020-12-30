@@ -110,11 +110,11 @@ public class HideAndSeekArena extends Arena {
 				if (isPresent) {
 					if (!victim.getUniqueId().equals(seeker.getUniqueId())) {
 						victim.sendMessage(ChatColor.RED + "You were found by the seeker");
-						CompSound.ITEM_BREAK.play((Player) victim);
-						((Player) victim).setGameMode(GameMode.SPECTATOR);
+						CompSound.ITEM_BREAK.play( victim);
+						(victim).setGameMode(GameMode.SPECTATOR);
 						victim.teleport(seeker.getLocation());
 						for (Player player : playersInGame) {
-							player.sendMessage(ChatColor.WHITE + " " + ChatColor.ITALIC + ((Player) victim).getDisplayName() + ChatColor.RESET + ChatColor.WHITE + "was found by the seeker");
+							player.sendMessage(ChatColor.WHITE + " " + ChatColor.ITALIC + ( victim).getDisplayName() + ChatColor.RESET + ChatColor.WHITE + "was found by the seeker");
 						}
 					}
 					else{
