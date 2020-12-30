@@ -3,4 +3,4 @@
 ## The project is focussed in developing various plugins in java and making use of certain MC libraries
 ## The base code is integrated with appsync backend through graphQL and DynamoDB database
 
-###-----THE END-----
+-----THE END-----
