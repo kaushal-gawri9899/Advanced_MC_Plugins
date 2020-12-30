@@ -1,0 +1,312 @@
+------------------------------------[ 11.08.2020 02:16:12 ]-----------------------------------
+Orion 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, Tester v1.0.1, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Orion could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO Orion, look for errors above and contact support Essentials)
+FoException Report / Orion could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO Orion, look for errors above and contact support Essentials)
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.Common.lambda$doesPluginExistSilently$2(Common.java:986)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	 at java.lang.Thread.run(Thread.java:748)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 11.08.2020 02:26:24 ]-----------------------------------
+No instance yet 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, Tester v1.0.1, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+No instance yet could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO No instance yet, look for errors above and contact support Essentials)
+FoException Report / No instance yet could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO No instance yet, look for errors above and contact support Essentials)
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.Common.lambda$doesPluginExistSilently$2(Common.java:986)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	 at java.lang.Thread.run(Thread.java:748)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 14.08.2020 13:19:29 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /pref 
+NoClassDefFoundError org/mineacademy/orion/menu/PreferencesPanelMenu
+	 at org.mineacademy.orion.command.orion.PreferenceCommand.onCommand(PreferenceCommand.java:19)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+ClassNotFoundException org.mineacademy.orion.menu.PreferencesPanelMenu
+	 at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:171)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100)
+	 at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	 at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	 at org.mineacademy.orion.command.orion.PreferenceCommand.onCommand(PreferenceCommand.java:19)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 14.08.2020 13:19:39 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /preference 
+NoClassDefFoundError org/mineacademy/orion/menu/PreferencesPanelMenu
+	 at org.mineacademy.orion.command.orion.PreferenceCommand.onCommand(PreferenceCommand.java:19)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 14.08.2020 13:19:59 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /pref 
+NoClassDefFoundError org/mineacademy/orion/menu/PreferencesPanelMenu
+	 at org.mineacademy.orion.command.orion.PreferenceCommand.onCommand(PreferenceCommand.java:19)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 14.08.2020 13:20:03 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /pref 
+NoClassDefFoundError org/mineacademy/orion/menu/PreferencesPanelMenu
+	 at org.mineacademy.orion.command.orion.PreferenceCommand.onCommand(PreferenceCommand.java:19)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 18.08.2020 12:35:19 ]-----------------------------------
+Orion 1.0.0 encountered a NullPointerException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Error clicking in menu PreferencesPanelMenu{}
+NullPointerException (Unknown cause)
+	 at org.mineacademy.orion.PlayerCache.serialize(PlayerCache.java:70)
+	 at org.mineacademy.fo.settings.YamlConfig.save(YamlConfig.java:441)
+	 at org.mineacademy.fo.settings.YamlConfig.saveIfNecessary0(YamlConfig.java:325)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:315)
+	 at org.mineacademy.orion.PlayerCache.<init>(PlayerCache.java:29)
+	 at org.mineacademy.orion.PlayerCache.getCache(PlayerCache.java:82)
+	 at org.mineacademy.orion.menu.PreferencesPanelMenu$LevelMenu$1.getItem(PreferencesPanelMenu.java:232)
+	 at org.mineacademy.orion.menu.PreferencesPanelMenu$LevelMenu.getItemAt(PreferencesPanelMenu.java:251)
+	 at org.mineacademy.fo.menu.Menu.displayTo(Menu.java:399)
+	 at org.mineacademy.fo.menu.Menu.displayTo(Menu.java:374)
+	 at org.mineacademy.fo.menu.button.ButtonMenu.onClickedInMenu(ButtonMenu.java:148)
+	 at org.mineacademy.fo.menu.Menu.onButtonClick(Menu.java:817)
+	 at org.mineacademy.fo.menu.MenuListener.onMenuClick(MenuListener.java:74)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor25.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 18.08.2020 12:35:32 ]-----------------------------------
+Orion 1.0.0 encountered a NullPointerException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Error clicking in menu PreferencesPanelMenu{}
+NullPointerException (Unknown cause)
+	 at org.mineacademy.orion.PlayerCache.serialize(PlayerCache.java:70)
+	 at org.mineacademy.fo.settings.YamlConfig.save(YamlConfig.java:441)
+	 at org.mineacademy.fo.settings.YamlConfig.saveIfNecessary0(YamlConfig.java:325)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:315)
+	 at org.mineacademy.orion.PlayerCache.<init>(PlayerCache.java:29)
+	 at org.mineacademy.orion.PlayerCache.getCache(PlayerCache.java:82)
+	 at org.mineacademy.orion.menu.PreferencesPanelMenu$LevelMenu$1.getItem(PreferencesPanelMenu.java:232)
+	 at org.mineacademy.orion.menu.PreferencesPanelMenu$LevelMenu.getItemAt(PreferencesPanelMenu.java:251)
+	 at org.mineacademy.fo.menu.Menu.displayTo(Menu.java:399)
+	 at org.mineacademy.fo.menu.Menu.displayTo(Menu.java:374)
+	 at org.mineacademy.fo.menu.button.ButtonMenu.onClickedInMenu(ButtonMenu.java:148)
+	 at org.mineacademy.fo.menu.Menu.onButtonClick(Menu.java:817)
+	 at org.mineacademy.fo.menu.MenuListener.onMenuClick(MenuListener.java:74)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor25.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 18.08.2020 12:58:39 ]-----------------------------------
+Orion 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Default 'settings.yml' lacks a Boolean at 'Join.Give_Emerald'
+FoException Report / Default 'settings.yml' lacks a Boolean at 'Join.Give_Emerald'
+	 at org.mineacademy.fo.Valid.checkNotNull(Valid.java:56)
+	 at org.mineacademy.fo.settings.YamlConfig.addDefaultIfNotExist(YamlConfig.java:1513)
+	 at org.mineacademy.fo.settings.YamlConfig.getT(YamlConfig.java:518)
+	 at org.mineacademy.fo.settings.YamlConfig.getBoolean(YamlConfig.java:658)
+	 at org.mineacademy.fo.settings.YamlStaticConfig.getBoolean(YamlStaticConfig.java:322)
+	 at org.mineacademy.orion.settings.Settings.access$400(Settings.java:6)
+	 at org.mineacademy.orion.settings.Settings$Join.init(Settings.java:31)
+	 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	 at java.lang.reflect.Method.invoke(Method.java:498)
+	 at org.mineacademy.fo.settings.YamlStaticConfig.invokeMethodsIn(YamlStaticConfig.java:192)
+	 at org.mineacademy.fo.settings.YamlStaticConfig.invokeAll(YamlStaticConfig.java:166)
+	 at org.mineacademy.fo.settings.YamlStaticConfig.loadViaReflection(YamlStaticConfig.java:145)
+	 at org.mineacademy.fo.settings.YamlStaticConfig.access$000(YamlStaticConfig.java:38)
+	 at org.mineacademy.fo.settings.YamlStaticConfig$1.onLoadFinish(YamlStaticConfig.java:58)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.mineacademy.fo.settings.YamlStaticConfig.createFileAndLoad(YamlStaticConfig.java:230)
+	 at org.mineacademy.fo.settings.SimpleSettings.load(SimpleSettings.java:39)
+	 at org.mineacademy.fo.settings.YamlStaticConfig.load(YamlStaticConfig.java:82)
+	 at org.mineacademy.fo.plugin.SimplePlugin.onEnable(SimplePlugin.java:251)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	 at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:472)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:386)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 18.08.2020 13:03:08 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /survey 
+NoClassDefFoundError org/mineacademy/orion/Conversation/OnBoardingConversation
+	 at org.mineacademy.orion.command.BoardingCommand.onCommand(BoardingCommand.java:16)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+ClassNotFoundException org.mineacademy.orion.Conversation.OnBoardingConversation
+	 at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:171)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100)
+	 at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	 at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	 at org.mineacademy.orion.command.BoardingCommand.onCommand(BoardingCommand.java:16)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 18.08.2020 13:20:49 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /survey 
+NoClassDefFoundError org/mineacademy/orion/Conversation/OnBoardingConversation
+	 at org.mineacademy.orion.command.BoardingCommand.onCommand(BoardingCommand.java:15)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+ClassNotFoundException org.mineacademy.orion.Conversation.OnBoardingConversation
+	 at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:171)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:100)
+	 at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	 at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	 at org.mineacademy.orion.command.BoardingCommand.onCommand(BoardingCommand.java:15)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 18.08.2020 13:21:02 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /boarding 
+NoClassDefFoundError org/mineacademy/orion/Conversation/OnBoardingConversation
+	 at org.mineacademy.orion.command.BoardingCommand.onCommand(BoardingCommand.java:15)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 18.08.2020 13:22:19 ]-----------------------------------
+Orion 1.0.0 encountered a NoClassDefFoundError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Orion v1.0.0, Vault v1.7.3-b131, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to execute command /survey 
+NoClassDefFoundError org/mineacademy/orion/Conversation/OnBoardingConversation
+	 at org.mineacademy.orion.command.BoardingCommand.onCommand(BoardingCommand.java:15)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.handleCommand(PlayerConnection.java:1869)
+	 at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1677)
+----------------------------------------------------------------------------------------------
+
+

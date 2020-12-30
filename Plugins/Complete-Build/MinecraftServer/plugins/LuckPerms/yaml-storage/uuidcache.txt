@@ -1,0 +1,2 @@
+# LuckPerms UUID lookup cache
+112a86b9-5704-38a0-a71d-d2af32d5a018:Bellyna

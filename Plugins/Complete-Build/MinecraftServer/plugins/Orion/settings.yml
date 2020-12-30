@@ -1,0 +1,35 @@
+# -------------------------------------------------------------------------------------------
+# 
+#  Your file has been automatically updated at 26.08.2020 18:52:22
+#  to Orion 1.0.0
+# 
+#  Unfortunatelly, due to how Bukkit saves all .yml files, it was not possible
+#  preserve the documentation comments in your file. We apologize.
+# 
+#  If you'd like to view the default file, you can either:
+#  a) Open the Orion.jar with a WinRar or similar
+#  b) or, visit: https://github.com/kangarko/Orion/wiki
+# 
+# -------------------------------------------------------------------------------------------
+
+Menu:
+  Preferences_Title: '&4User preferences'
+  Egg_Selection_Title: Select a Mob Egg
+Prefix: '&fOrion &7//'
+Log_Lag_Over_Mills: 100
+Debug:
+- events
+- commands
+Version: 1
+Broadcaster_Delay: 10 seconds
+Entity_Hit:
+  Explode_Cows: true
+  Power: 2D
+Join:
+  Give_Emrald: false
+  Give_Emerald: false
+Log_Lag_Over_Milis: 100
+Ignored_Log_Commands:
+- /login
+- /register
+- /changepassword

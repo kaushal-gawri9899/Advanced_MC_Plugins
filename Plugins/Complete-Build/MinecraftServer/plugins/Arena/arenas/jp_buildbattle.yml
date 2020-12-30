@@ -1,0 +1,31 @@
+# -------------------------------------------------------------------------------------------
+#  Welcome to the main configuration for jp_buildbattle
+# -------------------------------------------------------------------------------------------
+Min_Players: 1
+Max_Players: 20
+Max_Creatures: 0
+Game_Duration: 6 minutes
+Lobby_Duration: 25 seconds
+Lives: 2
+Destruction: false
+Destruction_Whitelist: []
+Map_Reset: true
+World_Reset: false
+Team_Spawnpoints:
+  world 61 82 -952: Yellow
+  world 17 82 -983: Green
+  world 27 82 -952: Red
+  world 63 82 -978: Blue
+Maximum_Team_Imbalance: 2
+Type: buildBattle
+Lobby_Location: world 48 131 -965 1 0
+Region:
+  Secondary: world 4 78 -1003
+  Primary: world 86 143 -922
+Voting_Duration: 60 seconds
+Build_Duration: 5 minutes
+Voting_Points:
+  world 21 107 -956: Red
+  world 61 111 -956: Yellow
+  world 14 96 -981: Green
+  world 69 101 -972: Blue

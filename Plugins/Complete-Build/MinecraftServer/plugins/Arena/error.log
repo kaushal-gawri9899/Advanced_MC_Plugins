@@ -1,0 +1,851 @@
+------------------------------------[ 24.09.2020 00:54:33 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Cannot call getConfig in Arena, use YamlConfig or SimpleCommand classes in Foundation for that!
+FoException Report / Cannot call getConfig in Arena, use YamlConfig or SimpleCommand classes in Foundation for that!
+	 at org.mineacademy.fo.plugin.SimplePlugin.unsupported(SimplePlugin.java:1139)
+	 at org.mineacademy.fo.plugin.SimplePlugin.getConfig(SimplePlugin.java:1108)
+	 at org.jpwilliamson.arena.ArenaPlugin.loadConfig(ArenaPlugin.java:111)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginStart(ArenaPlugin.java:60)
+	 at org.mineacademy.fo.plugin.SimplePlugin.onEnable(SimplePlugin.java:289)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	 at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:472)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:386)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 00:54:33 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Cannot call getConfig in Arena, use YamlConfig or SimpleCommand classes in Foundation for that!
+FoException Report / Cannot call getConfig in Arena, use YamlConfig or SimpleCommand classes in Foundation for that!
+	 at org.mineacademy.fo.plugin.SimplePlugin.unsupported(SimplePlugin.java:1139)
+	 at org.mineacademy.fo.plugin.SimplePlugin.getConfig(SimplePlugin.java:1108)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginStop(ArenaPlugin.java:96)
+	 at org.mineacademy.fo.plugin.SimplePlugin.onDisable(SimplePlugin.java:631)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265)
+	 at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:415)
+	 at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:398)
+	 at org.mineacademy.fo.plugin.SimplePlugin.displayError0(SimplePlugin.java:616)
+	 at org.mineacademy.fo.plugin.SimplePlugin.onEnable(SimplePlugin.java:330)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+	 at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:380)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:483)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugin(CraftServer.java:472)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.enablePlugins(CraftServer.java:386)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 01:33:04 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Cannot call getConfig in Arena, use YamlConfig or SimpleCommand classes in Foundation for that!
+FoException Report / Cannot call getConfig in Arena, use YamlConfig or SimpleCommand classes in Foundation for that!
+	 at org.mineacademy.fo.plugin.SimplePlugin.unsupported(SimplePlugin.java:1139)
+	 at org.mineacademy.fo.plugin.SimplePlugin.getConfig(SimplePlugin.java:1108)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginStop(ArenaPlugin.java:104)
+	 at org.mineacademy.fo.plugin.SimplePlugin.onDisable(SimplePlugin.java:631)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265)
+	 at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:415)
+	 at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:516)
+	 at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:502)
+	 at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:495)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.disablePlugins(CraftServer.java:406)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 14:31:26 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Cannot have both map and world reset enabled, one is enough
+FoException Report / Cannot have both map and world reset enabled, one is enough
+	 at org.jpwilliamson.arena.model.ArenaSettings.checkDestructionAndRestore(ArenaSettings.java:153)
+	 at org.jpwilliamson.arena.model.ArenaSettings.onLoadFinish(ArenaSettings.java:136)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.onLoadFinish(TeamArenaSettings.java:45)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.team.TeamArena.createSettings(TeamArena.java:48)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:129)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:15)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginReload(ArenaPlugin.java:116)
+	 at org.mineacademy.fo.plugin.SimplePlugin.reload(SimplePlugin.java:747)
+	 at org.mineacademy.fo.command.ReloadCommand.onCommand(ReloadCommand.java:22)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 14:31:26 ]-----------------------------------
+Arena 1.0.0 encountered an InvocationTargetException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to create arena type buildBattle, ensure that class org.jpwilliamson.arena.model.buildbattle.BuildBattleArena has 1 public constructor only taking the arena name
+InvocationTargetException (Unknown cause)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginReload(ArenaPlugin.java:116)
+	 at org.mineacademy.fo.plugin.SimplePlugin.reload(SimplePlugin.java:747)
+	 at org.mineacademy.fo.command.ReloadCommand.onCommand(ReloadCommand.java:22)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+FoException Report / Cannot have both map and world reset enabled, one is enough
+	 at org.jpwilliamson.arena.model.ArenaSettings.checkDestructionAndRestore(ArenaSettings.java:153)
+	 at org.jpwilliamson.arena.model.ArenaSettings.onLoadFinish(ArenaSettings.java:136)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.onLoadFinish(TeamArenaSettings.java:45)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.team.TeamArena.createSettings(TeamArena.java:48)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:129)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:15)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginReload(ArenaPlugin.java:116)
+	 at org.mineacademy.fo.plugin.SimplePlugin.reload(SimplePlugin.java:747)
+	 at org.mineacademy.fo.command.ReloadCommand.onCommand(ReloadCommand.java:22)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:11:26 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Game Duration must be equal to Voting Duration + Build Duration
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:34)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:12)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:19)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:11:26 ]-----------------------------------
+Arena 1.0.0 encountered an InvocationTargetException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to create arena type buildBattle, ensure that class org.jpwilliamson.arena.model.buildbattle.BuildBattleArena has 1 public constructor only taking the arena name
+InvocationTargetException (Unknown cause)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:34)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:12)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:19)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:14:10 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Game Duration must be equal to Voting Duration + Build Duration
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:34)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:12)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:19)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:14:10 ]-----------------------------------
+Arena 1.0.0 encountered an InvocationTargetException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to create arena type buildBattle, ensure that class org.jpwilliamson.arena.model.buildbattle.BuildBattleArena has 1 public constructor only taking the arena name
+InvocationTargetException (Unknown cause)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:34)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:12)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:19)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:16:23 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Game Duration must be equal to Voting Duration + Build Duration
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:34)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:12)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:19)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginReload(ArenaPlugin.java:116)
+	 at org.mineacademy.fo.plugin.SimplePlugin.reload(SimplePlugin.java:747)
+	 at org.mineacademy.fo.command.ReloadCommand.onCommand(ReloadCommand.java:22)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:16:23 ]-----------------------------------
+Arena 1.0.0 encountered an InvocationTargetException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to create arena type buildBattle, ensure that class org.jpwilliamson.arena.model.buildbattle.BuildBattleArena has 1 public constructor only taking the arena name
+InvocationTargetException (Unknown cause)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginReload(ArenaPlugin.java:116)
+	 at org.mineacademy.fo.plugin.SimplePlugin.reload(SimplePlugin.java:747)
+	 at org.mineacademy.fo.command.ReloadCommand.onCommand(ReloadCommand.java:22)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:34)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:12)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:19)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.onPluginReload(ArenaPlugin.java:116)
+	 at org.mineacademy.fo.plugin.SimplePlugin.reload(SimplePlugin.java:747)
+	 at org.mineacademy.fo.command.ReloadCommand.onCommand(ReloadCommand.java:22)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:21:30 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Game Duration must be equal to Voting Duration + Build Duration
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:35)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:20)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 16:21:30 ]-----------------------------------
+Arena 1.0.0 encountered an InvocationTargetException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to create arena type buildBattle, ensure that class org.jpwilliamson.arena.model.buildbattle.BuildBattleArena has 1 public constructor only taking the arena name
+InvocationTargetException (Unknown cause)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+FoException Report / Game Duration must be equal to Voting Duration + Build Duration
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.onLoadFinish(BuildBattleSettings.java:28)
+	 at org.mineacademy.fo.settings.YamlConfig.loadConfiguration(YamlConfig.java:304)
+	 at org.jpwilliamson.arena.model.ArenaSettings.<init>(ArenaSettings.java:112)
+	 at org.jpwilliamson.arena.model.team.TeamArenaSettings.<init>(TeamArenaSettings.java:37)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleSettings.<init>(BuildBattleSettings.java:18)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.createSettings(BuildBattleArena.java:35)
+	 at org.jpwilliamson.arena.model.Arena.<init>(Arena.java:130)
+	 at org.jpwilliamson.arena.model.team.TeamArena.<init>(TeamArena.java:40)
+	 at org.jpwilliamson.arena.model.buildbattle.BuildBattleArena.<init>(BuildBattleArena.java:20)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	 at org.mineacademy.fo.ReflectionUtil.instantiate(ReflectionUtil.java:446)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadOrCreateArena(ArenaManager.java:124)
+	 at org.jpwilliamson.arena.model.ArenaManager.loadArenas(ArenaManager.java:87)
+	 at org.jpwilliamson.arena.ArenaPlugin.lambda$onPluginStart$0(ArenaPlugin.java:80)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftTask.run(CraftTask.java:99)
+	 at org.bukkit.craftbukkit.v1_15_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:468)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 17:40:13 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+FoException Report / Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.visual.BlockVisualizer.visualize(BlockVisualizer.java:40)
+	 at org.jpwilliamson.arena.tool.VisualTool.visualize(VisualTool.java:184)
+	 at org.jpwilliamson.arena.tool.VisualTool.onBlockClick(VisualTool.java:58)
+	 at org.jpwilliamson.arena.tool.ArenaTool.onBlockClick(ArenaTool.java:64)
+	 at org.mineacademy.fo.menu.tool.BlockTool.onBlockClick(BlockTool.java:36)
+	 at org.mineacademy.fo.menu.tool.ToolsListener.onToolClick(ToolsListener.java:77)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor80.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+	 at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:471)
+	 at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:438)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 17:40:16 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+FoException Report / Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.visual.BlockVisualizer.visualize(BlockVisualizer.java:40)
+	 at org.jpwilliamson.arena.tool.VisualTool.visualize(VisualTool.java:184)
+	 at org.jpwilliamson.arena.tool.VisualTool.onBlockClick(VisualTool.java:58)
+	 at org.jpwilliamson.arena.tool.ArenaTool.onBlockClick(ArenaTool.java:64)
+	 at org.mineacademy.fo.menu.tool.BlockTool.onBlockClick(BlockTool.java:33)
+	 at org.mineacademy.fo.menu.tool.ToolsListener.onToolClick(ToolsListener.java:77)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor80.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+	 at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:471)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 17:40:17 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+FoException Report / Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.visual.BlockVisualizer.visualize(BlockVisualizer.java:40)
+	 at org.jpwilliamson.arena.tool.VisualTool.visualize(VisualTool.java:184)
+	 at org.jpwilliamson.arena.tool.VisualTool.onBlockClick(VisualTool.java:58)
+	 at org.jpwilliamson.arena.tool.ArenaTool.onBlockClick(ArenaTool.java:64)
+	 at org.mineacademy.fo.menu.tool.BlockTool.onBlockClick(BlockTool.java:33)
+	 at org.mineacademy.fo.menu.tool.ToolsListener.onToolClick(ToolsListener.java:77)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor80.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+	 at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:471)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 17:40:19 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+FoException Report / Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.visual.BlockVisualizer.visualize(BlockVisualizer.java:40)
+	 at org.jpwilliamson.arena.tool.VisualTool.visualize(VisualTool.java:184)
+	 at org.jpwilliamson.arena.tool.VisualTool.onBlockClick(VisualTool.java:58)
+	 at org.jpwilliamson.arena.tool.ArenaTool.onBlockClick(ArenaTool.java:64)
+	 at org.mineacademy.fo.menu.tool.BlockTool.onBlockClick(BlockTool.java:36)
+	 at org.mineacademy.fo.menu.tool.ToolsListener.onToolClick(ToolsListener.java:77)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor80.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+	 at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:471)
+	 at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:438)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 24.09.2020 17:40:29 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_212
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+FoException Report / Block at Location{world=CraftWorld{name=world},x=86.0,y=143.0,z=-922.0,pitch=0.0,yaw=0.0} already visualized
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.visual.BlockVisualizer.visualize(BlockVisualizer.java:40)
+	 at org.jpwilliamson.arena.tool.VisualTool.visualize(VisualTool.java:184)
+	 at org.jpwilliamson.arena.tool.VisualTool.onHotbarFocused(VisualTool.java:111)
+	 at org.jpwilliamson.arena.tool.ArenaTool.onHotbarFocused(ArenaTool.java:93)
+	 at org.mineacademy.fo.menu.tool.ToolsListener.onHeltItem(ToolsListener.java:112)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor81.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 15:58:48 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@43503a3f'
+FoException Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@43503a3f'
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+	 at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+	 at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+	 at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+	 at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:03:01 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@29380c2b'
+FoException Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@29380c2b'
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+	 at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+	 at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+	 at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+	 at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:06:58 ]-----------------------------------
+Arena 1.0.0 encountered a NoSuchMethodError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Error clicking in menu ClassSelectionMenu{}
+NoSuchMethodError org.jpwilliamson.arena.menu.VoteMenu.openVoteMenu(Lorg/jpwilliamson/arena/model/buildbattle/BuildBattleArena;Lorg/jpwilliamson/arena/menu/VoteMenu$MenuItem;Lorg/bukkit/entity/Player;)V
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:181)
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:47)
+	 at org.mineacademy.fo.menu.MenuPagged.onMenuClick(MenuPagged.java:359)
+	 at org.mineacademy.fo.menu.MenuListener.onMenuClick(MenuListener.java:76)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor77.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:08:55 ]-----------------------------------
+Arena 1.0.0 encountered a NoSuchMethodError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Error clicking in menu ClassSelectionMenu{}
+NoSuchMethodError org.jpwilliamson.arena.menu.VoteMenu.<init>(Lorg/jpwilliamson/arena/model/buildbattle/BuildBattleArena;Lorg/jpwilliamson/arena/menu/VoteMenu$MenuItem;Lorg/bukkit/entity/Player;)V
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:182)
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:47)
+	 at org.mineacademy.fo.menu.MenuPagged.onMenuClick(MenuPagged.java:359)
+	 at org.mineacademy.fo.menu.MenuListener.onMenuClick(MenuListener.java:76)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor77.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:34:36 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@6eff1a03'
+FoException Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@6eff1a03'
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+	 at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+	 at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+	 at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+	 at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:34:38 ]-----------------------------------
+Arena 1.0.0 encountered a NoSuchMethodError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Error clicking in menu ClassSelectionMenu{}
+NoSuchMethodError org.jpwilliamson.arena.menu.VoteMenu.openVoteMenu(Lorg/jpwilliamson/arena/model/buildbattle/BuildBattleArena;Lorg/jpwilliamson/arena/menu/VoteMenu$MenuItem;Lorg/bukkit/entity/Player;)V
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:182)
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:47)
+	 at org.mineacademy.fo.menu.MenuPagged.onMenuClick(MenuPagged.java:359)
+	 at org.mineacademy.fo.menu.MenuListener.onMenuClick(MenuListener.java:76)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor77.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:41:58 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@7b6200ed'
+FoException Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@7b6200ed'
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+	 at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+	 at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+	 at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+	 at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:46:04 ]-----------------------------------
+Arena 1.0.0 encountered a NoSuchMethodError
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Error clicking in menu ClassSelectionMenu{}
+NoSuchMethodError org.jpwilliamson.arena.menu.VoteMenu.openVoteMenu(Lorg/jpwilliamson/arena/model/buildbattle/BuildBattleArena;Lorg/jpwilliamson/arena/menu/VoteMenu$MenuItem;Lorg/bukkit/entity/Player;)V
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:185)
+	 at org.jpwilliamson.arena.menu.ClassSelectionMenu.onPageClick(ClassSelectionMenu.java:49)
+	 at org.mineacademy.fo.menu.MenuPagged.onMenuClick(MenuPagged.java:359)
+	 at org.mineacademy.fo.menu.MenuListener.onMenuClick(MenuListener.java:76)
+	 at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor77.execute(Unknown Source)
+	 at org.bukkit.plugin.EventExecutor.lambda$create$1(EventExecutor.java:69)
+	 at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)
+	 at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+	 at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:607)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:54:28 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@769a6776'
+FoException Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@769a6776'
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+	 at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+	 at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+	 at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+	 at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 30.09.2020 16:54:50 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@769a6776'
+FoException Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@769a6776'
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+	 at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+	 at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+	 at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+	 at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 04.10.2020 16:37:15 ]-----------------------------------
+Arena 1.0.0 encountered a FoException
+Running Paper 1.15.2-R0.1-SNAPSHOT and Java 1.8.0_261
+Plugins: LuckPerms v5.1.26, WorldEdit v7.1.0;8e55131, Vault v1.7.3-b131, Arena v1.0.0, ProtocolLib v4.5.1, Essentials v2.18.0.17, EssentialsSpawn v2.18.0.17
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@53b8b71d'
+FoException Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@53b8b71d'
+	 at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+	 at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+	 at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+	 at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+	 at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+	 at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+	 at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+	 at org.bukkit.craftbukkit.v1_15_R1.CraftServer.dispatchCommand(CraftServer.java:761)
+----------------------------------------------------------------------------------------------
+
+

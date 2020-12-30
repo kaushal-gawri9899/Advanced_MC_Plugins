@@ -1,0 +1,21 @@
+lastAccountName: Bellyna
+timestamps:
+  login: 1601809606830
+  logout: 1601809645588
+  lastteleport: 1598618283225
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 91.5
+  y: 79.0
+  z: -1086.5
+  yaw: 25.499994
+  pitch: -32.550003
+logoutlocation:
+  world: world
+  x: 91.5
+  y: 79.0
+  z: -1086.5
+  yaw: 0.0
+  pitch: 0.0
+godmode: false
