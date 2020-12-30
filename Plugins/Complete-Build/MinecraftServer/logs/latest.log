@@ -1,0 +1,145 @@
+[16:36:12] [Server thread/INFO]: Loading properties
+[16:36:13] [Server thread/INFO]: This server is running Paper version git-Paper-384 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[16:36:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:36:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:36:13] [Server thread/INFO]: Debug logging is disabled
+[16:36:13] [Server thread/INFO]: Default game type: CREATIVE
+[16:36:13] [Server thread/INFO]: Generating keypair
+[16:36:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:36:14] [Server thread/INFO]: Using default channel type
+[16:36:18] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[16:36:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[16:36:21] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@78b01d1a]
+[16:36:21] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:36:21] [Server thread/INFO]: [Arena] Loading Arena v1.0.0
+[16:36:21] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.1
+[16:36:21] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.15.2) has not yet been tested! Proceed with caution.
+[16:36:22] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.0.17
+[16:36:22] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.0.17
+[16:36:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:36:22] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[16:36:22] [Server thread/INFO]:         __    
+[16:36:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.1.26
+[16:36:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:36:22] [Server thread/INFO]: 
+[16:36:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:36:24] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML_COMBINED]
+[16:36:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:36:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:36:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3398ms)
+[16:36:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[16:36:26] [Server thread/WARN]: [WorldEdit] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[16:36:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:36:27] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[16:36:29] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:36:29] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.0.17 which is not a depend, softdepend or loadbefore of this plugin.
+[16:36:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:36:29] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:36:29] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:36:29] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[16:36:29] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:36:29] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:36:29] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.1
+[16:36:29] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[16:36:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:36:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:36:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:36:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:36:29] [Server thread/INFO]: Preparing level "world"
+[16:36:30] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[16:36:34] [Server thread/INFO]: Loaded 6 recipes
+[16:36:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:36:36] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[16:36:36] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[16:36:36] [Server thread/INFO]: Preparing spawn area: 0%
+[16:36:36] [Server thread/INFO]: Preparing spawn area: 0%
+[16:36:37] [Server thread/INFO]: Preparing spawn area: 0%
+[16:36:37] [Server thread/INFO]: Time elapsed: 1360 ms
+[16:36:37] [Server thread/INFO]: [Arena] Enabling Arena v1.0.0
+[16:36:38] [Thread-17/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[16:36:38] [Server thread/WARN]: [Arena] Loaded class com.comphenix.protocol.events.PacketAdapter from ProtocolLib v4.5.1 which is not a depend, softdepend or loadbefore of this plugin.
+[16:36:38] [Server thread/WARN]: [Arena] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[16:36:38] [Server thread/WARN]: [Arena] Loaded class com.sk89q.worldedit.world.World from WorldEdit v7.1.0;8e55131 which is not a depend, softdepend or loadbefore of this plugin.
+[16:36:38] [Server thread/WARN]: [Arena] Loaded class com.earth2me.essentials.IUser from Essentials v2.18.0.17 which is not a depend, softdepend or loadbefore of this plugin.
+[16:36:41] [Server thread/INFO]: [Arena] [+] Loaded class Newbie
+[16:36:41] [Server thread/INFO]: [Arena] [+] Loaded class trainee
+[16:36:41] [Server thread/INFO]: [Arena] [+] Loaded team Blue
+[16:36:41] [Server thread/INFO]: [Arena] [+] Loaded team Green
+[16:36:41] [Server thread/INFO]: [Arena] [+] Loaded team Red
+[16:36:41] [Server thread/INFO]: [Arena] [+] Loaded team Yellow
+[16:36:42] [Server thread/INFO]: [Arena] Plugin Started
+[16:36:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.0.17
+[16:36:42] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:36:42] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:36:43] [Server thread/INFO]: [Essentials] Loaded 25515 items from items.json.
+[16:36:43] [Server thread/INFO]: [Essentials] Using locale en_IN
+[16:36:43] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:36:43] [Server thread/INFO]: [Essentials] Metrics disabled per bStats config.
+[16:36:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:36:43] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:36:43] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.0.17
+[16:36:43] [Server thread/INFO]: [EssentialsSpawn] Metrics disabled per bStats config.
+[16:36:43] [Server thread/INFO]: Running delayed init tasks
+[16:36:44] [Server thread/INFO]: [Arena] [+] Loaded buildBattle arena jp_buildbattle
+[16:36:44] [Server thread/INFO]: Done (31.212s)! For help, type "help"
+[16:36:44] [Server thread/INFO]: Timings Reset
+[16:36:45] [User Authenticator #1/INFO]: UUID of player Bellyna is 112a86b9-5704-38a0-a71d-d2af32d5a018
+[16:36:46] [Server thread/INFO]: Bellyna joined the game
+[16:36:46] [Server thread/INFO]: Bellyna[/127.0.0.1:51205] logged in with entity id 127 at ([world]91.5, 79.0, -1086.5)
+[16:36:46] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 33.931300ms. Summary: Getting group for Bellyna
+[16:36:57] [Server thread/INFO]: Bellyna issued server command: /arena join jp_buildbattle
+[16:36:57] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 20 ms
+[16:36:58] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 495 ms
+[16:36:59] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 0 ms
+[16:37:00] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 0 ms
+[16:37:11] [Server thread/INFO]: Bellyna issued server command: /arena leave
+[16:37:11] [Server thread/INFO]: [Arena] Stopped arena jp_buildbattle
+[16:37:15] [Server thread/INFO]: Bellyna issued server command: /arena join jp_buildbattle
+[16:37:15] [Server thread/INFO]: [Arena] Arena 1.0.0 encountered a FoException! Please check your error.log and report this issue with the information in that file.
+[16:37:15] [Server thread/INFO]: org.mineacademy.fo.exception.FoException: Report / Key 'jp_buildbattle' is already in the map --> 'com.sk89q.worldedit.extent.clipboard.BlockArrayClipboard@53b8b71d'
+[16:37:15] [Server thread/INFO]: at org.mineacademy.fo.Valid.checkBoolean(Valid.java:77)
+[16:37:15] [Server thread/INFO]: at org.mineacademy.fo.collection.StrictMap.put(StrictMap.java:86)
+[16:37:15] [Server thread/INFO]: at org.jpwilliamson.arena.model.ArenaMapManager.saveRegion(ArenaMapManager.java:85)
+[16:37:15] [Server thread/INFO]: at org.jpwilliamson.arena.model.Arena.onLobbyStart(Arena.java:652)
+[16:37:15] [Server thread/INFO]: at org.jpwilliamson.arena.model.Arena.joinPlayer(Arena.java:223)
+[16:37:15] [Server thread/INFO]: at org.jpwilliamson.arena.command.JoinCommand.onCommand(JoinCommand.java:44)
+[16:37:15] [Server thread/INFO]: at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+[16:37:15] [Server thread/INFO]: at org.mineacademy.fo.command.SimpleCommandGroup$MainCommand.onCommand(SimpleCommandGroup.java:306)
+[16:37:15] [Server thread/INFO]: at org.mineacademy.fo.command.SimpleCommand.execute(SimpleCommand.java:343)
+[16:37:15] [Server thread/INFO]: at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[16:37:15] [Server thread/INFO]: at java.lang.Thread.run(Thread.java:748)
+[16:37:15] [Server thread/INFO]: [Arena] !-----------------------------------------------------!
+[16:37:15] [Server thread/INFO]: [Arena]  Failed to execute command /arena join jp_buildbattle
+[16:37:15] [Server thread/INFO]: [Arena] !-----------------------------------------------------!
+[16:37:15] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 2 ms
+[16:37:16] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 160 ms
+[16:37:17] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 0 ms
+[16:37:18] [Server thread/INFO]: [Arena] Processed 1 blocks. Took 0 ms
+[16:37:24] [Server thread/INFO]: Bellyna issued server command: /arena leave
+[16:37:24] [Server thread/INFO]: [Arena] Stopped arena jp_buildbattle
+[16:37:25] [Server thread/INFO]: Bellyna lost connection: Disconnected
+[16:37:25] [Server thread/INFO]: Bellyna left the game
+[16:37:49] [Server thread/INFO]: Stopping the server
+[16:37:49] [Server thread/INFO]: Stopping server
+[16:37:49] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.18.0.17
+[16:37:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.18.0.17
+[16:37:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[16:37:49] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.5.1
+[16:37:49] [Server thread/INFO]: [Arena] Disabling Arena v1.0.0
+[16:37:49] [Server thread/INFO]: [Arena] Plugin Stops
+[16:37:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[16:37:49] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:37:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.1.0;8e55131
+[16:37:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:37:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.1.26
+[16:37:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[16:37:49] [Server thread/INFO]: [LuckPerms] Closing storage...
+[16:37:49] [Server thread/INFO]: [LuckPerms] Goodbye!
+[16:37:49] [Server thread/INFO]: Saving players
+[16:37:49] [Server thread/INFO]: Saving worlds
+[16:37:49] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[16:37:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:37:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:37:55] [Server thread/INFO]: Flushing Chunk IO
+[16:37:55] [Server thread/INFO]: Closing Thread Pool
+[16:37:55] [Server thread/INFO]: Closing Server
