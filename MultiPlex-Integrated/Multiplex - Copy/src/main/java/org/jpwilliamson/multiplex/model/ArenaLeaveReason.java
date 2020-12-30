@@ -79,10 +79,9 @@ public enum ArenaLeaveReason {
 	EDIT_STOP("You are no longer editing arena {arena}."),
 
 	/*
-	* Zombies killed all the players in black ops zombies
-	* */
-	ZOMBIES_WON("You Lose the Game"),
-
+	 * Player Didn't Survive
+	 * */
+	CANT_SURVIVE("You couldn't survive in arena"),
 	/**
 	 * Arena stopped due to other causes
 	 */

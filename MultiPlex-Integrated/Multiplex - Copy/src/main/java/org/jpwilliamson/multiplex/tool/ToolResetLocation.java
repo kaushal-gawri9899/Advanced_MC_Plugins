@@ -85,7 +85,7 @@ public class ToolResetLocation extends VisualTool<Arena> {
 	 */
 	@Override
 	protected List<Location> getVisualizedPoints(final Arena arena) {
-		return Arrays.asList(arena.getSettings().getResetLocation().subtract(arena.getReferenceLocation()));
+		return Arrays.asList(arena.getSettings().getResetLocation().add(arena.getReferenceLocation()));
 	}
 
 	/**
